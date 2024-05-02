@@ -11,6 +11,6 @@ function help()
     echo color("&7-------------------\n&eLISTA DE COMANDOS\n&7-------------------\n");
 
     foreach (array_keys($commands) as $command) {
-        echo color("&e$command&e:&f $commands[$command]\n");
+        echo color("&e$command&e =>&f $commands[$command]\n");
     }
 }
